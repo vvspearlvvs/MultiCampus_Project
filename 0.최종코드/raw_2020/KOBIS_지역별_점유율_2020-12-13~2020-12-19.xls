@@ -1,0 +1,369 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style>
+html { font-family:'맑은 고딕',Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+.tbl_tit{width:100%;}
+.tbl_tit em{font-weight: bold;font-style: normal}
+.tbl_tit_sub{background-color: black;color:white;font-size: 13pt;font-weight: bold;}
+.tbl_tit_ser{font-size:10pt; font-weight: bold;background-color:#D8D8D8}
+.tbl_tit_desc{color:#000000;  font-size:9pt}
+.board_tit{font-weight: bold;color: #7891B0;font-size: 11pt;margin-top:10px;margin-bottom: 0px;}
+.tbl_exc{font-size: 10pt;}
+.tbl_exc tr{height:15pt;}
+.tbl_exc th{height:15pt;background-color: black;color:white;font-weight: bold;border-left: 1px solid #FFF;border-right: 1px solid #FFF;}
+.tbl_exc tr.sumTr{background-color:#777; height: 40px; text-align: right;color:white;font-weight: bold;}
+.tal {text-align:left !important;}
+.tar {text-align:right !important;}
+.tac {text-align:center !important;}
+.tbl_exc td {text-align: center;}
+</style>
+</head>
+
+<body>
+	<table border="0" class="tbl_tit">
+		<tr>
+			<td class="tbl_tit_sub" colspan="13">■ 지역별 점유율</td>
+		</tr>
+		<tr>	
+			<td class="tbl_tit_desc" colspan="13">- <em>조회일</em>: 2021-08-17</td>
+		</tr>
+		<tr>
+			<td class="tbl_tit_desc" colspan="13">- <em>출처</em>: 영화진흥위원회 통합전산망 (http://www.kobis.or.kr)</td>
+		</tr>
+		<tr>
+			<td class="tbl_tit_ser" colspan="13">▶ 검색조건 [ 조회기간 : 2020-12-13~2020-12-19 ]</td>
+		</tr>
+	</table>
+	
+	<table border="1" class="tbl_exc">
+		<thead>
+			<tr>
+				<th scope="col" rowspan="2" class="row"><span>지역</span></th>
+				<th scope="col" colspan="4" style="border-bottom: 1px solid #FFF;"><span>한국영화</span></th>
+				<th scope="col" colspan="4" style="border-bottom: 1px solid #FFF;"><span>외국영화</span></th>
+				<th scope="col" colspan="4" style="border-bottom: 1px solid #FFF;"><span>전체</span></th>
+			</tr>
+			<tr>
+				<th scope="col"><span>상영편수</span></th>
+				<th scope="col"><span>매출액</span></th>
+				<th scope="col"><span>관객수</span></th>
+				<th scope="col"><span>점유율</span></th>
+				<th scope="col"><span>상영편수</span></th>
+				<th scope="col"><span>매출액</span></th>
+				<th scope="col"><span>관객수</span></th>
+				<th scope="col"><span>점유율</span></th>
+				<th scope="col"><span>상영편수</span></th>
+				<th scope="col"><span>매출액</span></th>
+				<th scope="col"><span>관객수</span></th>
+				<th scope="col"><span>점유율</span></th>
+			</tr>
+		</thead>
+
+		<tbody>			
+			
+				<tr>
+					<td class="tal">서울시</td>
+					<td class="tar">50</td>
+					<td class="tar">320,102,970</td>
+					<td class="tar">39,851</td>
+					<td class="tar" style=mso-number-format:"0.0%">29.0%</td>
+					<td class="tar">87</td>
+					<td class="tar">286,106,830</td>
+					<td class="tar">31,236</td>
+					<td class="tar" style=mso-number-format:"0.0%">41.7%</td>
+					<td class="tar">137</td>
+					<td class="tar">606,209,800</td>
+					<td class="tar">71,087</td>
+					<td class="tar" style=mso-number-format:"0.0%">33.5%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">경기도</td>
+					<td class="tar">27</td>
+					<td class="tar">231,080,450</td>
+					<td class="tar">25,589</td>
+					<td class="tar" style=mso-number-format:"0.0%">18.6%</td>
+					<td class="tar">53</td>
+					<td class="tar">126,667,490</td>
+					<td class="tar">13,954</td>
+					<td class="tar" style=mso-number-format:"0.0%">18.6%</td>
+					<td class="tar">80</td>
+					<td class="tar">357,747,940</td>
+					<td class="tar">39,543</td>
+					<td class="tar" style=mso-number-format:"0.0%">18.6%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">부산시</td>
+					<td class="tar">26</td>
+					<td class="tar">86,867,280</td>
+					<td class="tar">10,091</td>
+					<td class="tar" style=mso-number-format:"0.0%">7.3%</td>
+					<td class="tar">57</td>
+					<td class="tar">50,662,870</td>
+					<td class="tar">6,070</td>
+					<td class="tar" style=mso-number-format:"0.0%">8.1%</td>
+					<td class="tar">83</td>
+					<td class="tar">137,530,150</td>
+					<td class="tar">16,161</td>
+					<td class="tar" style=mso-number-format:"0.0%">7.6%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">대구시</td>
+					<td class="tar">28</td>
+					<td class="tar">84,208,470</td>
+					<td class="tar">9,522</td>
+					<td class="tar" style=mso-number-format:"0.0%">6.9%</td>
+					<td class="tar">43</td>
+					<td class="tar">36,524,060</td>
+					<td class="tar">4,018</td>
+					<td class="tar" style=mso-number-format:"0.0%">5.4%</td>
+					<td class="tar">71</td>
+					<td class="tar">120,732,530</td>
+					<td class="tar">13,540</td>
+					<td class="tar" style=mso-number-format:"0.0%">6.4%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">인천시</td>
+					<td class="tar">25</td>
+					<td class="tar">52,591,420</td>
+					<td class="tar">5,715</td>
+					<td class="tar" style=mso-number-format:"0.0%">4.2%</td>
+					<td class="tar">44</td>
+					<td class="tar">28,271,940</td>
+					<td class="tar">3,343</td>
+					<td class="tar" style=mso-number-format:"0.0%">4.5%</td>
+					<td class="tar">69</td>
+					<td class="tar">80,863,360</td>
+					<td class="tar">9,058</td>
+					<td class="tar" style=mso-number-format:"0.0%">4.3%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">경상남도</td>
+					<td class="tar">27</td>
+					<td class="tar">60,564,700</td>
+					<td class="tar">6,896</td>
+					<td class="tar" style=mso-number-format:"0.0%">5.0%</td>
+					<td class="tar">30</td>
+					<td class="tar">18,994,480</td>
+					<td class="tar">2,195</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.9%</td>
+					<td class="tar">57</td>
+					<td class="tar">79,559,180</td>
+					<td class="tar">9,091</td>
+					<td class="tar" style=mso-number-format:"0.0%">4.3%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">광주시</td>
+					<td class="tar">23</td>
+					<td class="tar">55,842,310</td>
+					<td class="tar">6,275</td>
+					<td class="tar" style=mso-number-format:"0.0%">4.6%</td>
+					<td class="tar">40</td>
+					<td class="tar">18,991,380</td>
+					<td class="tar">2,236</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.0%</td>
+					<td class="tar">63</td>
+					<td class="tar">74,833,690</td>
+					<td class="tar">8,511</td>
+					<td class="tar" style=mso-number-format:"0.0%">4.0%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">대전시</td>
+					<td class="tar">19</td>
+					<td class="tar">44,188,810</td>
+					<td class="tar">5,003</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.6%</td>
+					<td class="tar">39</td>
+					<td class="tar">21,440,790</td>
+					<td class="tar">2,405</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.2%</td>
+					<td class="tar">58</td>
+					<td class="tar">65,629,600</td>
+					<td class="tar">7,408</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.5%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">충청남도</td>
+					<td class="tar">24</td>
+					<td class="tar">42,258,390</td>
+					<td class="tar">4,845</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.5%</td>
+					<td class="tar">46</td>
+					<td class="tar">15,300,780</td>
+					<td class="tar">1,766</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.4%</td>
+					<td class="tar">70</td>
+					<td class="tar">57,559,170</td>
+					<td class="tar">6,611</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.1%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">전라북도</td>
+					<td class="tar">18</td>
+					<td class="tar">39,856,310</td>
+					<td class="tar">4,564</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.3%</td>
+					<td class="tar">31</td>
+					<td class="tar">12,839,720</td>
+					<td class="tar">1,456</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.9%</td>
+					<td class="tar">49</td>
+					<td class="tar">52,696,030</td>
+					<td class="tar">6,020</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.8%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">경상북도</td>
+					<td class="tar">13</td>
+					<td class="tar">39,644,000</td>
+					<td class="tar">4,489</td>
+					<td class="tar" style=mso-number-format:"0.0%">3.3%</td>
+					<td class="tar">26</td>
+					<td class="tar">9,180,430</td>
+					<td class="tar">1,095</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.5%</td>
+					<td class="tar">39</td>
+					<td class="tar">48,824,430</td>
+					<td class="tar">5,584</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.6%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">전라남도</td>
+					<td class="tar">9</td>
+					<td class="tar">30,302,020</td>
+					<td class="tar">3,735</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.7%</td>
+					<td class="tar">19</td>
+					<td class="tar">6,866,810</td>
+					<td class="tar">824</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.1%</td>
+					<td class="tar">28</td>
+					<td class="tar">37,168,830</td>
+					<td class="tar">4,559</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.2%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">충청북도</td>
+					<td class="tar">12</td>
+					<td class="tar">27,639,890</td>
+					<td class="tar">3,162</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.3%</td>
+					<td class="tar">36</td>
+					<td class="tar">9,541,380</td>
+					<td class="tar">1,133</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.5%</td>
+					<td class="tar">48</td>
+					<td class="tar">37,181,270</td>
+					<td class="tar">4,295</td>
+					<td class="tar" style=mso-number-format:"0.0%">2.0%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">강원도</td>
+					<td class="tar">19</td>
+					<td class="tar">21,950,900</td>
+					<td class="tar">2,564</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.9%</td>
+					<td class="tar">34</td>
+					<td class="tar">9,058,590</td>
+					<td class="tar">1,103</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.5%</td>
+					<td class="tar">53</td>
+					<td class="tar">31,009,490</td>
+					<td class="tar">3,667</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.7%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">울산시</td>
+					<td class="tar">16</td>
+					<td class="tar">21,954,110</td>
+					<td class="tar">2,284</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.7%</td>
+					<td class="tar">30</td>
+					<td class="tar">11,286,170</td>
+					<td class="tar">1,219</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.6%</td>
+					<td class="tar">46</td>
+					<td class="tar">33,240,280</td>
+					<td class="tar">3,503</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.7%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">제주도</td>
+					<td class="tar">11</td>
+					<td class="tar">16,332,950</td>
+					<td class="tar">1,829</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.3%</td>
+					<td class="tar">21</td>
+					<td class="tar">4,383,290</td>
+					<td class="tar">512</td>
+					<td class="tar" style=mso-number-format:"0.0%">0.7%</td>
+					<td class="tar">32</td>
+					<td class="tar">20,716,240</td>
+					<td class="tar">2,341</td>
+					<td class="tar" style=mso-number-format:"0.0%">1.1%</td>
+				</tr>
+			
+				<tr>
+					<td class="tal">세종시</td>
+					<td class="tar">13</td>
+					<td class="tar">7,811,120</td>
+					<td class="tar">992</td>
+					<td class="tar" style=mso-number-format:"0.0%">0.7%</td>
+					<td class="tar">20</td>
+					<td class="tar">3,092,220</td>
+					<td class="tar">365</td>
+					<td class="tar" style=mso-number-format:"0.0%">0.5%</td>
+					<td class="tar">33</td>
+					<td class="tar">10,903,340</td>
+					<td class="tar">1,357</td>
+					<td class="tar" style=mso-number-format:"0.0%">0.6%</td>
+				</tr>
+			
+			
+				<tr class="sumTr">
+					<td>합계</td>
+					<td class="tar">360</td>
+					<td class="tar">1,183,196,100</td>
+					<td class="tar">137,406</td>
+					<td class="tar">100%</td>
+					<td class="tar">656</td>
+					<td class="tar">669,209,230</td>
+					<td class="tar">74,930</td>
+					<td class="tar">100%</td>
+					<td class="tar">1,016</td>
+					<td class="tar">1,852,405,330</td>
+					<td class="tar">212,336</td>
+					<td class="tar">100%</td>
+				</tr>
+			
+		</tbody>
+	</table>
+</body>
+</html>
