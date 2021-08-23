@@ -1,59 +1,58 @@
-## README
+## 코로나 백신과 영화 산업 상관관계 분석 및 시각화
 
-- git 협업 방법 fork 방식 참고 자료: https://seungwubaek.github.io/tools/git/contributing_using_pull_request/
+2021년 3월 이후 본격적인 코로나 백신 접종이 시작됨에 따라 코로나 백신이 영화 산업에 미치는 영향 분석
 
-## GIT 사용방법 
-### **1. git bash 실행**
+------
 
-### **2. clone명령실행** 
 
-`$ git clone https://github.com/vvspearlvvs/MultiCampus_Project`
 
-### **3. status 명령실행** 
+### 개요
 
-생성된 MultiCampus_Project 확인 및 status 확인
+공공 데이터 시각화 프로젝트
 
-**`$ git status`**
+지역에 따라 백신접종이 영화 산업에 미치는 영향을 파악하기 위해 제1도시(서울)와 제2도시(부산)의 데이터 분석 및 비교
 
-아래와 같은 메세지 확인이 되면 정상
 
-> On branch main
-> Your branch is up to date with 'origin/main'.
->
-> nothing to commit, working tree clean
 
-### **4. 원하는 폴더에 자기가 한 결과물 넣음**
+### 프로젝트 기간
 
-예시: [데이터분석/kjj항공데이터처리] 폴더를 생성하고, 그 안에 파일들을 넣음
+2021.08.02 ~ 20201.08.24
 
-### **5. status 명령실행** 
 
-`$ git status`
 
-아래와 같은 메세지 확인 및 Untracked files에 무엇인가 생겨난기록이 뜨면 정상
+### 아키텍쳐
 
-> On branch main
-> Your branch is up to date with 'origin/main'.
->
-> Untracked files:
->   (use "git add <file>..." to include in what will be committed)
->
-> nothing added to commit but untracked files present (use "git add" to track)
+![image-20210821152742009](picture/image-20210821152742009.png)
 
-### **6. add 명령실행**
 
-참고로 tab으로 프로젝트 경로 자동완성가능
 
-`$ git add 파일명`
+### 프로젝트 결과물
 
-예시 : $ git add 데이터_분석/kjj_항공데이터처리/
+주요 결과물 (자세한 내용은 포트폴리오 참고)
 
-### **7. commit 명령실행**
+![image-20210821153531255](picture/image-20210821153531255.png)
 
-`$ git commit -m "커밋메세지" `
+![image-20210821152944920](picture/image-20210821152944920.png)
 
-예시: git commit -m "20210812 : 2021년 항공데이터 처리 by kjj"
+![image-20210821152914916](picture/image-20210821152914916.png)
 
-### **8. puhs 명령실행** 
+![image-20210821152858043](picture/image-20210821152858043.png)
 
-`$ git push -u origin main`
+### 결론 및 향후 과제
+
+결론
+
+- 코로나 백신과 영화 매출액에는 상관관계 확인
+  - 누적접종률이 주간접종률보다 강한 상관관계를 갖고 있음
+  - 코로나 백신과 영화매출액의 상관관계는 지역별 차이가  존재
+- 영화산업에서 코로나 백신의 경제적효과가 있을 것으로 전망
+- 
+
+한계점 및 해결방안
+
+- 거리두기를 고려하다보니 계절성을 고려하고, 적절한 크기의 표본을 선정하는데 어려움이 존재
+       → 접종 이후의 데이터 확보 필요
+- 지역별 차이에 대한 표본이 부산 한 곳이므로 , 이를 명확하게 확인할 수 없음 
+       → 타 지역 데이터분석 필요
+- 코로나 백신과 영화매출액의 상관관계는 지역별 차이가 존재
+       → 설문자료 및 여론조사 관련 추가 데이터수집 필요
